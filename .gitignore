@@ -42,3 +42,5 @@ next-env.d.ts
 
 # Extension config
 extension/config.js
+.env
+.env.local
