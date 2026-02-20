@@ -44,3 +44,4 @@ next-env.d.ts
 extension/config.js
 .env
 .env.local
+aiarchives.log
