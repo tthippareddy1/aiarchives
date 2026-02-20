@@ -1,4 +1,4 @@
-import { HelpCircle } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
@@ -96,10 +96,12 @@ const Home = async () => {
           </div>
         </div>
         <div className='flex items-center space-x-4'>
+        <Link href="/search">
           <Button variant='ghost' size='sm' className='flex items-center space-x-2'>
-            <HelpCircle className='w-5 h-5' />
+            <Search className='w-5 h-5' />
             <span className='text-sm'>How to Use</span>
           </Button>
+	</Link>
         </div>
       </header>
 
